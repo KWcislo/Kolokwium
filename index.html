@@ -27,7 +27,13 @@
             message: 'Powodzenia',
             rows: 10,
             columns: 10,
-            active: "1,1",
+            active: [1,1]
+        },
+    },
+    methods: {
+            click: function(row, column){
+                this.active = row.toString() + "," + column.toString();
+            }
         }
     })
     </script>

@@ -8,6 +8,7 @@
     margin-bottom: 10px;
     border: gray;
     border-style: solid;
+    cursor: pointer;
 }
 .cell2{
     display: flex;
