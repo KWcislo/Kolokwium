@@ -8,4 +8,7 @@
     margin-bottom: 10px;
     border: gray;
     border-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 } 
