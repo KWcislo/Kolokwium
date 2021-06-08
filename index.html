@@ -9,10 +9,11 @@
     
     <div id="app">
         <div v-for="i in rows" class="cell2"> 
-            <div v-for="j in columns" class="cell"> 
+            <div v-for="j in columns" :class="[active == '1,1' && j == i == 1 ? 'cell active' : 'cell']"> 
                 1
             </div>
             </div>
+            {{active}}
             {{ message }}
         </div>
      
@@ -26,6 +27,7 @@
             message: 'Powodzenia',
             rows: 10,
             columns: 10,
+            active: "1,1",
         }
     })
     </script>
