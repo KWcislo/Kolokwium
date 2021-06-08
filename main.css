@@ -1,0 +1,11 @@
+.cell {
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+    border-width: 1px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: gray;
+    border-style: solid;
+} 
